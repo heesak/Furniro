@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  /* font-variation-settings: */
+    /* "slnt" 0; */
+    
+
+}
+
+/* HEADER STYLE STARTS HERE */
+.logo_container a{
+    text-decoration: none;
+    color: var(--just-black);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+}
+
+header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    border: 3px solid;
+}
+
+
+.links{
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+    font-weight:bold;
+}
+
+.icon_container{
+    display: flex;
+    gap: 20px;
+}
+
+li  a{
+    text-decoration: none;
+    color: black;
+    border: 3px solid transparent;
+    padding: 5px;
+    transition: 200ms;
+}
+.links li:hover a {
+    border: 3px solid #B88E2F;
+    color: #B88E2F;
+    transition: 200ms;
+    border-radius: 10px;
+
+    
+}
+/* HEADER STYLE ENDS HERE */
+
+
+
+/* HERO SECTION STARTS HERE */
+
+.hero{
+    border: 3px solid ;
+    height: 600px;
+    background: url(./assets/scandinavian-interior-mockup-wall-decal-background\ 1.png);
+    background-position: center;
+}
+
+.child{
+    display: flex;
+    border: 3px solid red;
+    height: 300px;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    float: right;
+    margin-top: 12%;
+    margin-right: 6rem;
+    width: 500px;
+    padding: 15px 20px ;
+    background-color: var(--hero-color);
+
+}
+
+.child h3{
+font-size: 30px;
+color: var(--hero-text-color);
+font-weight: bolder;
+font-size: xx-large;
+}
+
+.btn{
+background: var(--hero-text-color);
+width: 160px;
+padding:1rem 0;
+color: var(--btn-text-color);
+border: 0;
+
+}
+
+.btn a{
+    text-decoration: none;
+    color: var(--btn-text-color);
+    font
+}
+
+/* HERO SECTION ENDS HERE */
+
