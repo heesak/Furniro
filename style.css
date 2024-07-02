@@ -6,14 +6,21 @@
     text-decoration: none;
     list-style: none;
     font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  /* font-weight: <weight>; */
-  font-style: normal;
-  /* font-variation-settings: */
-    /* "slnt" 0; */
+    font-optical-sizing: auto;
+    scroll-behavior: smooth;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    /* user-select: none; */
+    /* font-variation-settings: */
+        /* "slnt" 0; */
     
 
 }
+
+.dragging {
+    opacity: 0.5;
+  }
+  
 
 /* HEADER STYLE STARTS HERE */
 .logo_container a{
@@ -43,18 +50,54 @@ header{
 
 .icon_container{
     display: flex;
+    align-items: center;
     gap: 20px;
+    border: 3px solid aqua;
 }
+
+
+
+/* konical code_============================ */
+.search-input-container {
+    /* position: absolute;
+    right: 0; */
+    top: 100%;
+    background-color: #bf1515;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    /* width: 60px; */
+    border: 3px solid aqua;
+  }
+  
+  .search-input {
+    padding: 5px 10px 5px 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex-grow: 1;
+    width: 20px;
+    border: 3px solid aqua;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 10px;
+    color: #999;
+    border: 3px solid aqua;
+  }
+/* -=========================================   */
+  
 
 li  a{
     text-decoration: none;
     color: black;
-    border: 3px solid transparent;
+    border: 0 solid transparent;
     padding: 5px;
     transition: 200ms;
 }
 .links li:hover a {
-    border: 3px solid #B88E2F;
+    border: 2px solid #B88E2F;
     color: #B88E2F;
     transition: 200ms;
     border-radius: 10px;
@@ -103,14 +146,69 @@ width: 160px;
 padding:1rem 0;
 color: var(--btn-text-color);
 border: 0;
+transition: 200ms;
+border-radius: 10px;
 
 }
 
 .btn a{
     text-decoration: none;
     color: var(--btn-text-color);
-    font
+    transition: 200ms;
+}
+.btn{
+    font-size: 18px;
+    font-weight: bold;
+    transition: 200ms;
+
+}
+
+
+.btn:hover{
+    color: var(--hero-text-color);
+    background: transparent;
+    border: 1.5px solid ;
+    transition: 200ms;
+}
+
+.btn:hover a{
+    color: var( --hero-text-color);
+    transition: 200ms;
 }
 
 /* HERO SECTION ENDS HERE */
+
+
+/* RANGE SECTION STARTS HERE--------------- */
+.range_container{
+    border: 3px solid red;
+    text-align: center;
+    padding-top: 2rem;
+    
+}
+
+.range_container h3,p{
+    padding: 10px 0;
+    /* font */
+}
+
+.ranges{
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: calc(20px );
+
+}
+
+.range{
+    width: 250px;
+    height: 250px;
+    border:3px solid red;
+}
+
+.range_text{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* RANGE SECTION ENDS HERE--------------- */
 
